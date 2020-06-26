@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Nunito&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    /* justify-items: center;
+    align-items: center; */
+    background-color: skyblue;
+}
+.instructions{
+    font-size: 5px;
+    padding: 10px;
+    padding-bottom: 20px;
+    background-color: yellow;
+}
+h4{
+    font-size: 10px;
+    text-decoration: underline;
+}
+.container{
+    height: 250px;
+    width: 380px;
+    margin-top: 20px;
+    margin-left: 25px;
+    padding-left: 20px;
+    background-color: yellow;
+}
+h2{
+    font-size: 17px;
+}
+.controlers{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-left: 50px;
+}
+.hide{
+    display: none;
+}
+.quiz-content{
+    height: 280px;
+    width: 420px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 20px;
+    background-color: palevioletred;
+    border-radius: 4px;
+}
+
+/* body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-items: center;
+    align-items: center;
+    background-color: skyblue;
+}
+body.correct{
+    background-color: green;
+}
+body.wrong{
+    background-color: red;
+}
+.instruct{
+    background-color: white;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    font-size: 7px;
+    padding: 10px;
+    border-radius: 4px;
+}
+ol >li{
+    transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+h4{
+    text-decoration: underline black;
+    font-size: 10px;
+   margin-bottom: 5px;
+}
+
+.container {
+    background-color: pink;
+    margin-top: 10px;
+    margin-left: 6em;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.userinfo{
+    position: absolute;
+    margin-left: 24em;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.user-flex{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.uservalue-flex{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+}
+.question-c {
+    margin-bottom: 20px;
+}
+
+.options-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 5px;
+    border-radius: 4px;
+    margin-left: 0;
+}
+
+button {
+    background-color: blue;
+    border-radius: 4px;
+    border-color: white;
+    outline: none;
+}
+.options-grid{
+    color: white;
+}
+
+.controls {
+    margin-top: 2px;
+    padding: 7px;
+}
+
+.controls>button {
+    background-color: grey;
+    padding: 3px;
+}
+
+.controls {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.hide {
+    display: none;
+} */
